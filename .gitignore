@@ -1,0 +1,23 @@
+﻿# Ignore build folders
+**/Debug/
+**/x64/Debug/
+**/Release/
+**/x64/Release/
+
+# Ignore compiled files
+*.exe
+*.dll
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.log
+*.suo
+*.cache
+*.user
+*.db
+
+# ignore visual studio garbage
+.vs/
+*.db
