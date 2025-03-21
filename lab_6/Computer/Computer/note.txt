@@ -1,0 +1,21 @@
+﻿Ahogy lehet, próbáljak mindent a lehető
+leginkább lekorlátozva tartani - 
+ami lehet konstans, legyen az. Minnél
+kevesebbet engedjek meg egy-egy változónak,
+függvénynek, hiszen másképp kompatibilitási
+problémákba fogok ütközni. 
+
+FONTOS:
+
+COPY CONSTRUCTOR PARAMÉTERE KONSTANS REFERENCIA!!!!
+
+ILLETVE EGY FÜGGVÉNYRŐL ÚGY TUDOM JELEZNI, HOGY
+NEM VÁLTOZTATJA AZ ADATOK ÉRTÉKÉT, HGOGY 
+
+<ret_val> <func_name> (<param_list>) const {}
+
+
+cpp-ben nem megkerülhető az inicializációs lista!!!
+nem tudok mit kezdeni a konstanssal és a referenciával
+hiszen akkor kell értéket kapjanak amikor létrejönnek, 
+utólag nem lehet az értéküket változtatni

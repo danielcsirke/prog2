@@ -1,10 +1,10 @@
-﻿# Ignore build folders
-**/Debug/
-**/x64/Debug/
-**/Release/
-**/x64/Release/
+﻿# 🚀 Ignore Visual Studio junk
+.vs/
+*.suo
+*.user
+*.VC.db
 
-# Ignore compiled files
+# 🚀 Ignore build outputs (C++ compiled files)
 *.exe
 *.dll
 *.obj
@@ -13,11 +13,24 @@
 *.idb
 *.tlog
 *.log
-*.suo
-*.cache
-*.user
-*.db
 
-# ignore visual studio garbage
-.vs/
-*.db
+# 🚀 Ignore Visual Studio solution-related files (optional)
+*.sln.cache
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# 🚀 Ignore Debug and Release folders
+**/Debug/
+**/Release/
+**/x64/Debug/
+**/x64/Release/
+
+# 🚀 Ignore auto-generated C++ files (if using CMake)
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+
+# 🚀 Ignore hidden system files
+.DS_Store
+Thumbs.db
